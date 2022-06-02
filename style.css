@@ -1,0 +1,76 @@
+/* reseteo css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  button:hover{
+    transform: scale(1.10);
+    transition-duration: 0.7s;
+  }
+  body{
+    background-image: url("./img/fondo.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+  li{
+      list-style: none;
+  }
+
+
+.logo{
+    display: block; 
+    width: 15%;
+    height: 15%;
+    margin: auto;
+}
+ 
+.foto{
+    display: block; 
+    max-width: 95%; 
+    border-radius: 15px;
+}
+.video{
+    display: block; 
+    max-width: 90%; 
+    max-height: 90%;
+    border-radius: 15px;
+}
+
+.boton{
+    background-color: rgba(5, 5, 5, 0.863);
+    justify-content: center !important;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    border: none !important;
+}
+.contenedor {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 !important;
+}
+
+.borde{
+    border: white 1.5px solid;
+    
+}
+.texto{
+ color: white;
+}
+.visibility{
+    display: none;
+}
+
+.imagenEnlace {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+  
